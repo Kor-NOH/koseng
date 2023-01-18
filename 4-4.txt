@@ -1,0 +1,7 @@
+onekm = 1
+onemile = onekm * 1.60934
+resultmile = 2860
+resultkm = onemile * 2860
+print("Newyork-Seatle Distance Conversion")
+print("Mile:", resultmile, "miles")
+print("Km:", resultkm, "km")

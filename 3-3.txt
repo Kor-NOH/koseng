@@ -1,0 +1,7 @@
+A = 30
+banA = 30/2
+radius = 3.14
+nulby = banA * banA * radius
+result = nulby / 4
+print(result)
+print(type(result))

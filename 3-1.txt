@@ -1,0 +1,8 @@
+i = 23
+f = 3.14
+str = "Joey"
+ch = 'W'
+print(type(i))
+print(type(f))
+print(type(str))
+print(type(ch))

@@ -1,0 +1,4 @@
+won = int(input("Input your money(won):"))
+
+dollar = round(won / 1175)
+print("If you exchange", won, "won, it is", dollar, "dollars")

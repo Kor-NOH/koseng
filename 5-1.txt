@@ -1,0 +1,7 @@
+name = input("Input your name:")
+addr = input("Input your address:")
+hobby = input("Input your hobby:")
+
+print("Hello~!", name, "nice to meet you.")
+print("You live in", addr, ".")
+print("Your favorite hobby is", hobby, ".")

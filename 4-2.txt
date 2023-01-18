@@ -1,0 +1,4 @@
+P = "python"
+num = 20
+
+print("Will", P , "be used after", num, "years?")

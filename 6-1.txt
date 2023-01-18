@@ -1,0 +1,6 @@
+print(3 + 2)
+print(3 * 9)
+print(2 ** 20)
+print(10 / 3)
+print(int(10 / 3))
+print(round(12.3) / round(3.53))

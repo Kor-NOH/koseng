@@ -1,0 +1,9 @@
+kor = 80
+eng = 100
+math = 73
+sci = 98
+
+print(kor, "+", eng, "=", kor+eng)
+print(eng, "*", sci, "=", eng*sci)
+print(eng, "+", math, "+", sci, "=", eng+math+sci)
+print(eng, "-", kor, "=", eng-kor)

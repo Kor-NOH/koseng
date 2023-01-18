@@ -1,0 +1,6 @@
+height = float(input("Input your height(cm):"))
+
+print("your height:", height)
+print("Standard weight:", (height-100)*0.9)
+print("Over-weight standards:", (height-100)*0.9*1.2)
+print("Low-weight standards:", (height-100)*0.9*0.8)

@@ -1,0 +1,5 @@
+cen = "2000"
+cen_int = int(cen)
+ 
+print(cen_int)
+print(type(cen_int))

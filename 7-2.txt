@@ -1,0 +1,7 @@
+r = 15 * 15 * 3.141592
+print("radius{0:d}, circle area = {1:.2f}".format(15, r))
+print("radius{0:d}, circle area = {1:10.2f}".format(15, r))
+print("{0:d}".format(1000))
+print("{0:7d}".format(1000))
+print("{0:<10d}".format(1000))
+print("{0:>10d}".format(1000))

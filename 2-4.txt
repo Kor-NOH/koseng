@@ -1,0 +1,5 @@
+zirem = 45
+banzirem = zirem / 2
+radius = 3.14
+nulby = banzirem * banzirem * radius
+print("one slice =>", nulby / 8)

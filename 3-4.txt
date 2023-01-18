@@ -1,0 +1,16 @@
+i_1 = 44
+i_2 = 500
+i_3 = 2000
+i_4 = 723
+ch_1 = "A"
+ch_2 = "s"
+ch_3 = "w"
+ch_4 = "Q"
+print(bin(i_1))
+print(bin(i_2))
+print(bin(i_3))
+print(bin(i_4))
+print(ord(ch_1))
+print(ord(ch_2))
+print(ord(ch_3))
+print(ord(ch_4))

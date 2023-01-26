@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+x = int(input())
+y = x**2 + b/a*x + (b/(2*a))**2
+print("y =", y)

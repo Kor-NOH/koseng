@@ -1,0 +1,6 @@
+name = input()
+age = input()
+height = float(input())
+print("name:{}".format(name))
+print("age:{}years old".format(age))
+print("height:{:.2f}cm".format(height))

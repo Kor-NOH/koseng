@@ -1,0 +1,15 @@
+weight = float(input())
+height = float(input())
+
+bmi = weight/(height/100 * height/100)
+
+if bmi < 20:
+    print("Underweight")
+elif bmi >= 20 and bmi < 25:
+    print("Normal")
+elif bmi >= 25 and bmi < 30:
+    print("Overweight")
+elif bmi >= 30 and bmi < 40:
+    print("Obesity")
+else:
+    print("Extremely overweight")

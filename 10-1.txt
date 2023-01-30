@@ -1,0 +1,18 @@
+import math
+def sine(angle):
+    if angle == 0:
+        return 0
+    elif angle == 30:
+        return 1/2
+    elif angle == 45:
+        return math.sqrt(2)/2
+    elif angle == 60:
+        return math.sqrt(3)/2
+    elif angle == 90:
+        return 1
+
+print("30 : %.2f" %sine(30))
+
+print("45 : %.2f" %sine(45))
+
+print("60 : %.2f" %sine(60))

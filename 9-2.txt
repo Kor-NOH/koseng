@@ -1,0 +1,9 @@
+num = int(input())
+
+if num < 2 or num > 9:
+    print("-1")
+else:
+    n = 1
+    while n <= 9:
+      print("%d x %d = %d"%(num, n, num*n))
+      n = n + 1

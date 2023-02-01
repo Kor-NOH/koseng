@@ -1,0 +1,17 @@
+def getGrade(score):
+      if score >= 90: # 다음과 같이 입력받은 점수에 따라 알맞은 학점 문자를 리턴한다.
+            return 'A'
+      elif score >= 80:
+            return 'B'
+      elif score >= 70:
+            return 'C'
+      elif score >= 60:
+            return 'C'
+      else:
+            return 'F'
+
+sc = int(input())
+if sc < 0 or sc > 100:
+      print("-1")
+else:
+      print("Your Grade is", getGrade(sc))

@@ -1,0 +1,13 @@
+a = int(input())
+
+def getround(radius):
+  # 원 둘레 계산
+  circleround = 2 * 3.14 * radius
+  return circleround
+def getarea(radius):
+  # 원 넓이 계산
+  area = 3.14 * a * a
+  return area
+
+print("round : %.2f" %getround(a))
+print("area : %.2f" %getarea(a))

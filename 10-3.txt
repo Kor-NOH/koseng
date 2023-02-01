@@ -1,0 +1,8 @@
+def func(num):
+      val = 2 * num + 5
+      # f(x) = 2x + 5 계산 수행, x대신에 파라미터 변수명 num 사용
+      return val
+
+print("10 : %.2f" %func(10))
+print("20 : %.2f" %func(20))
+print("30 : %.2f" %func(30))

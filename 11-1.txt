@@ -1,0 +1,10 @@
+list = []
+
+for i in range(5):
+      list.append(input())
+
+long = max(list, key=len)
+short = min(list, key=len)
+
+print("longest :", long)
+print("shortest :", short)

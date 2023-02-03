@@ -1,0 +1,16 @@
+dic = {'egg':3}
+while True:
+   name = input()
+   if name == "end":
+      break
+   else:
+      if name in dic:
+         dic[name] = dic[name] + 1
+      else:
+         dic[name] = 1
+
+
+print("This is minsun and youngB's bag")
+print("egg:", dic["egg"])
+print("milk:", dic["milk"])
+print("potatochip:", dic["potatochip"])

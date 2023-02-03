@@ -1,0 +1,2 @@
+dic = {'Kimyongmyung':1000, 'Yoonseokhyun': 1500, 'Jooyeolmae': 1700, 'Jangbonghwan': 3000, 'Kimsoyong': 4000}
+print("Auction winner :", max(dic, key=dic.get))

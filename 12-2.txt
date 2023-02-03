@@ -1,0 +1,7 @@
+dic = {'dictionary': 'book', 'python': 'language', 'zoo':'park', 'school':'studyzone', 'university':'studyzone2'}
+
+iv = input()
+if iv in dic:
+   print("The matching word in the searched dictionary is {}.".format(dic[iv]))
+else:
+   print("{} is a missing word.".format(iv))

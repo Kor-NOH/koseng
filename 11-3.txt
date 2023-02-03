@@ -1,0 +1,8 @@
+list_a = list(map(int, input().split()))
+print(list_a)
+
+list_a.insert(2, 50)
+print(list_a)
+
+list_a.remove(3)
+print(list_a)

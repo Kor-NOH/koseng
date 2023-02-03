@@ -1,0 +1,7 @@
+dic = {'dictionary': 'book', 'python': 'language', 'zoo':'park', 'school':'studyzone', 'university':'studyzone2'}
+
+print("key:dictionary, value:", dic['dictionary'])
+print("key:python, value:", dic['python'])
+print("key:zoo, value:", dic['zoo'])
+print("key:school, value:", dic['school'])
+print("key:university, value:", dic['university'])
